@@ -99,7 +99,7 @@ filter : FilterType - the filter for transactions selection (optional)
 
 Usage:
 ```python
-addresses = blockexplorer.get_multi_address('1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd', xpub6CmZamQcHw2TPtbGmJNEvRgfhLwitarvzFn3fBYEEkFTqztus7W7CNbf48Kxuj1bRRBmZPzQocB6qar9ay6buVkQk73ftKE1z4tt9cPHWRn)
+balances = blockexplorer.get_balance('1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd', xpub6CmZamQcHw2TPtbGmJNEvRgfhLwitarvzFn3fBYEEkFTqztus7W7CNbf48Kxuj1bRRBmZPzQocB6qar9ay6buVkQk73ftKE1z4tt9cPHWRn)
 ```
 
 #### `get_unspent_outputs`
